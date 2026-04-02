@@ -2,7 +2,7 @@
   "name": "masterpiece-clone",
   "display_name": "MasterPiece Clone",
   "description": "Execute the MasterPiece Clone workflow with prompt-to-text and image-to-image processing",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "author": "your-name",
   "type": "api",
   "category": "image-generation",
