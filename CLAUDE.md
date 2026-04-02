@@ -192,11 +192,34 @@ done
 - **工作流参数**: 将 `manifest.json` 中的 `inputs` 映射到 Pixify 控制台中使用的正确节点名称。
 - **敏感信息**: **绝对禁止**提交 API Key (`mk_...`)。在 `manifest.json` 中使用 `{{API_KEY}}` 占位符。
 
-## ⚠️ 发布规则
+### 图片显示最佳实践
 
-**❌ 未经允许禁止发布到 ClawHub**
+在 `Skills.md` 中展示图片时，使用 **CSS 类方式** 实现响应式图片显示：
 
-- 在执行 `clawhub publish` 命令前，**必须**获得用户明确授权
-- 不要主动发起发布流程
-- 如果用户要求发布，先确认版本号、文件配置等信息无误后再执行
-- 发布后需要向用户报告发布结果（Skill ID、Published ID 等）
+**1. 在 Skills.md 顶部添加 CSS 样式块：**
+```html
+<style>
+.preview-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  object-fit: contain;
+}
+</style>
+```
+
+**2. 使用 HTML img 标签配合 CSS 类：**
+```html
+<img src="https://cdn.example.com/image.jpg" class="preview-image" alt="描述文字" />
+```
+
+**优势：**
+- ✅ 宽度自适应，保持原始宽高比
+- ✅ 最大宽度限制为 300px，在 ClawHub 上显示一致
+- ✅ `object-fit: contain` 确保图片完整显示，不被裁剪
+- ✅ 响应式设计，在不同屏幕尺寸上都能正常显示
+
+**不要使用：**
+- ❌ `height="300"` 单独指定高度（宽度可能不一致）
+- ❌ Markdown 图片语法 `![alt](url)`（无法控制尺寸）
+- ❌ 硬编码宽高（不响应式）

@@ -1,5 +1,14 @@
 # Skills.md
 
+<style>
+.preview-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  object-fit: contain;
+}
+</style>
+
 ## Skill Name
 virtual-try-on
 
@@ -98,13 +107,13 @@ curl https://api.ngmob.com/api/v1/workflows/executions/{task_id} \
 
 | Clothing 1 | Clothing 2 | Clothing 3 | Clothing 4 |
 | :---: | :---: | :---: | :---: |
-| <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/02142137104-e1.jpg" height="300" alt="Clothing 1" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/01934038406-e1.jpg" height="300" alt="Clothing 2" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/02727003800-e1.jpg" height="300" alt="Clothing 3" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/13380710850-ult22.jpg" height="300" alt="Clothing 4" /> |
+| <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/02142137104-e1.jpg" class="preview-image" alt="Clothing 1" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/01934038406-e1.jpg" class="preview-image" alt="Clothing 2" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/02727003800-e1.jpg" class="preview-image" alt="Clothing 3" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/13380710850-ult22.jpg" class="preview-image" alt="Clothing 4" /> |
 
 ### Generated E-Commerce Product Photos
 
 | Product Photo 1 | Product Photo 2 | Product Photo 3 |
 | :---: | :---: | :---: |
-| ![Result 1](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-4shwPo6Y3d0MXb4oAa1Y-0.png) | ![Result 2](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-R92f94f6a740RKspjmSA-0.png) | ![Result 3](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-SlODH8L5NhfnGS7Ls6Y9-0.png) |
+| <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-4shwPo6Y3d0MXb4oAa1Y-0.png" class="preview-image" alt="Result 1" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-R92f94f6a740RKspjmSA-0.png" class="preview-image" alt="Result 2" /> | <img src="https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-SlODH8L5NhfnGS7Ls6Y9-0.png" class="preview-image" alt="Result 3" /> |
 
 ---
 
