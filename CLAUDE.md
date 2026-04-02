@@ -191,3 +191,12 @@ done
 - **技能描述**: `SKILL.md` 或 `manifest.json` 中的 `description` 必须清晰描述技能功能和使用场景。
 - **工作流参数**: 将 `manifest.json` 中的 `inputs` 映射到 Pixify 控制台中使用的正确节点名称。
 - **敏感信息**: **绝对禁止**提交 API Key (`mk_...`)。在 `manifest.json` 中使用 `{{API_KEY}}` 占位符。
+
+## ⚠️ 发布规则
+
+**❌ 未经允许禁止发布到 ClawHub**
+
+- 在执行 `clawhub publish` 命令前，**必须**获得用户明确授权
+- 不要主动发起发布流程
+- 如果用户要求发布，先确认版本号、文件配置等信息无误后再执行
+- 发布后需要向用户报告发布结果（Skill ID、Published ID 等）
