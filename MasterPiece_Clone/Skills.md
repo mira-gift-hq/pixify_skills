@@ -83,7 +83,7 @@ curl https://api.ngmob.com/api/v1/workflows/executions/{task_id} \
 
 | Input 1 (Reference) | Input 2 (Subject) | Result (MasterPiece) |
 | :---: | :---: | :---: |
-| ![Reference](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/adopted_20260324081228_0_compressed.png) | ![Subject](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/20251219_200547_ivy_runway_fullbody_916_dramatic_013_compressed.png) | ![Result](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-kM43NBVXDjluTGUiozmE-0_compressed.png) |
+| ![Reference](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/adopted_20260324081228_0_compressed.png) | ![Subject](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/20251219_200547_ivy_runway_fullbody_916_dramatic_013_compressed450.png) | ![Result](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-kM43NBVXDjluTGUiozmE-0_compressed.png) |
 
 ---
 
