@@ -34,7 +34,7 @@
 ```
 
 ### Preview
-![Cloned MasterPiece](img/generated-kM43NBVXDjluTGUiozmE-0.png)
+![Cloned MasterPiece](https://cdn.miraskill.cc/__skill_publish_files__/wangyang/generated-kM43NBVXDjluTGUiozmE-0_compressed.png)
 
 ---
 

@@ -22,6 +22,8 @@ yarn-error.log*
 *.sln
 *.swp
 .DS_Store
+trae/
+.claude/
 
 # Pixify / ClawHub Specific
 # Do NOT ignore manifest.json, Skills.md, or _meta.json as they are required
@@ -39,3 +41,4 @@ memory/
 # Test Files
 comic-to-realistic-1.0.3/
 test/
+docs/
